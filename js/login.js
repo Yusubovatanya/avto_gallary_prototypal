@@ -182,7 +182,7 @@
              return true;
          } else {
              this.validator.showOrHideAlert("visible", "Введен неверный логин или пароль !");
-             setTimeout(this.showOrHideAlert, 3000, "hide");
+             setTimeout(this.validator.showOrHideAlert, 3000, "hide");
              return false;
          }
      },
