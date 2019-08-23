@@ -1,0 +1,124 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.form-signin,
+.alert.alert-danger {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 50px auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-add {
+  border: none;
+}
+
+.card-avto {
+  width: auto;
+  margin: 16px 35px;
+}
+
+#userPage {
+  width: 1000px;
+  display: none;
+  margin-top: 150px;
+}
+
+.user-form {
+  width: 50%;
+  padding-right: 15px;
+}
+
+.count-text {
+  padding: 10px;
+}
+
+.count-selector {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.delete_btn {
+  margin-bottom: 16px;
+}
+
+#content {
+  font-size: 20px;
+  text-align: center;
+}
+
